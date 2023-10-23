@@ -55,5 +55,11 @@ docker exec tmodloader inject "say Hello World!"
 ```
 You can alernatively use the UID of the container in place of `tmodloader` if you did not name your configuration.
 
+# Another tip:
+
+If you are stuck behind a NAT router (like me), It would be pretty good to use a software called ngrok, which tunnels your network outwards. Because I like dockers, I just followed the guide by Hardware Haven and used his [docker image](https://hub.docker.com/r/hardwarehaven/ngrok2discord#!) to get a notification on discord (yay!). 
+
+BUT before you do this, you need ngrok-systemd and used the web-addr flag in the configuration file instead of just using localhost (won't work without it)
+
 # Notes
 Shamelessly pulled off from https://github.com/JACOBSMILE/tmodloader1.4/blob/master/README.md
