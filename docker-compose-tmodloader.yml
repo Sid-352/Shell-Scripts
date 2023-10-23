@@ -1,0 +1,19 @@
+version: '3'
+services:
+  tmodloader:
+    image: 'jacobsmile/tmodloader1.4'
+    container_name: 'tmodloader'
+    ports:
+      - "7777:7777"
+    expose:
+      - "7777"
+    volumes:
+      - "/home/sid/share/Tmod:/data"
+    environment:
+      - "TMOD_SHUTDOWN_MESSAGE=OFF"
+      - "TMOD_AUTOSAVE_INTERVAL=10"
+      - "TMOD_ENABLEDMODS=2599842771,2669644269,2816694149,2824688072,2824688266,2824688804,2563309347,2565639705,2619954303,2908170107,2816188633"
+      - "TMOD_MOTD=ON"
+      - "TMOD_PASS=sid"
+      - "TMOD_MAXPLAYERS=4"
+      - "TMOD_WORLDNAME=The_Windy_Plateau"
