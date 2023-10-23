@@ -1,0 +1,14 @@
+//some mods are dependent on each other, so that needs to be kept in mind
+2563309347 : MagicStorage
+2563862309 : StarsAbove
+2565639705 : OreExacavator
+2599842771 : AlchemistNpcLite
+2619954303 : RecipeBrowser
+2669644269 : BossChecklist
+2785100219 : SubworldLibrary
+2816188633 : UnCalamityModMusic -or- Vanilla Calamity Mod music
+2816694149 : BossCursor
+2824688072 : Calamity Mod
+2824688266 : Calamity Mod music
+2824688804 : CalValEX -or- Calamity vanities
+2908170107 : SerousCommonLib
