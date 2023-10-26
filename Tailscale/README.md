@@ -11,3 +11,5 @@ I tried every other option under the sun to connect to my server remotely for fr
 Anyhow, tailscale will not work well with the ngrok-systemd service.
 
 Try it, also supports android (maybe even ssh in android but I didn't try it).
+
+[Help for commands if you're doing this on a server](https://tailscale.com/kb/1080/cli/)
