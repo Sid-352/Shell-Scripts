@@ -1,6 +1,6 @@
 sudo apt update
 sudo apt upgrade -y
-
+sudo apt-get install net-tools
 sudo apt install openssh-server -y
 
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.tgz
