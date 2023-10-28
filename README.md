@@ -1,5 +1,5 @@
-# random-linux-projects
-Just an assortment of random lines of code that I need to be accessible whenever I bork up my linux system, again.
+# linux-projects
+Just an assortment of lines of shell code that I need to be accessible whenever I bork up my linux system, again.
 
 ## Software I used:
 1. openssh (obviously)
