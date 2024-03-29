@@ -9,10 +9,10 @@ sudo mv ngrok /usr/local/bin
 rm ngrok-stable-linux-amd64.tgz
 ngrok [id-here]
 
-sudo nmcli device wifi connect "Jio" password "12345678"
-sudo nmcli con mod "Jio" ipv4.method manual
-sudo nmcli con mod "Jio" ipv4.addresses 192.168.29.10/24
-sudo nmcli con up "Jio"
+sudo nmcli device wifi connect "WifiName" password "12345678"
+sudo nmcli con mod "WifiName" ipv4.method manual
+sudo nmcli con mod "WifiName" ipv4.addresses 192.168.29.10/24
+sudo nmcli con up "WifiName"
 sudo systemctl restart NetworkManager
 
 sudo apt-get install samba -y
