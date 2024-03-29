@@ -33,4 +33,4 @@ sudo service smbd restart
 sudo smbpasswd -a smb-user
 sudo service smbd restart
 
-echo "I guess everything needed is ready"
+echo "Done."
